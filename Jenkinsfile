@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Stage 1: Build the application (e.g., compile and package).'
+                echo 'Stage 1: Build the application for triggering check (e.g., compile and package).'
                 echo 'Tool: Maven or Gradle.'
             }
         }
